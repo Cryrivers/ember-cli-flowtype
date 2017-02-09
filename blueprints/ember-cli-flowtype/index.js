@@ -9,6 +9,8 @@ function _modifyESLintConfiguration() {
 
 module.exports = {
   name: 'ember-cli-flowtype',
+  normalizeEntityName: function() {
+  },
   description: 'Configuring Flowtype',
   afterInstall: function(options) {
     if ('ember-cli-eslint' in this.project.dependencies()) {

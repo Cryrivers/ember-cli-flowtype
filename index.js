@@ -1,8 +1,6 @@
 /* eslint-env node */
 'use strict';
 
-var FlowCLI = require('flow-bin/cli');
-
 module.exports = {
   name: 'ember-cli-flowtype',
   init: function(app) {
